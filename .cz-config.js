@@ -24,7 +24,7 @@ module.exports = {
   },
 
   // 跳过步骤
-  skip: ['body', 'footer'],
+  skip: ['body', 'footer', 'subject', 'customScope'],
 
   // 默认长度
   subjectLimit: 72
